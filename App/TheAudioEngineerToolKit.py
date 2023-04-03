@@ -109,7 +109,7 @@ Time_arrival_label1 =tk.Label(inside_frame, font =text_font, text="Sec", bg="whi
 Time_arrival_label1.place(relx=0.35, rely=0.575)
 
 #Note for user
-note_PLD =tk.Label(inside_frame, font =text_font, text="Note: Time one must be the \n shortest duration from \nthe source", bg="yellow", fg="black")
+note_PLD =tk.Label(inside_frame, font =text_font, text="Note: Time one must be the \n shortest arrival time from \nthe source", bg="yellow", fg="black")
 note_PLD.place(relx=0.0, rely=0.57)
 
 #User input for ATD two
@@ -129,8 +129,8 @@ time_calButton.place(relheight=0.05, relwidth=0.2, relx=0.404, rely= 0.589)
 time_result = tk.Label(inside_frame, font=text_font, bg="black", fg="white", height=1)
 time_result.place(relheight=0.03, relwidth= 0.09, relx=0.65, rely= 0.609)
 
-time_seconds_label =tk.Label(inside_frame, font =text_font, text="Seconds", bg="white", fg="black")
-time_seconds_label.place(relx=0.74, rely=0.61)
+time_seconds_label =tk.Label(inside_frame, font =text_font, text="Hz", bg="white", fg="black")
+time_seconds_label.place(relx=0.74, rely=0.615)
 
 root.mainloop()
 
